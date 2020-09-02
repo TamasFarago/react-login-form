@@ -46,7 +46,7 @@ function Navbar(props){
                          variant="h6"
                          color="inherit"
                          >
-                        App Title 
+                        Switch Mode 
                         </Typography>
                         <Switch onChange={toggleTheme}/>
                         <div className={classes.grow} />
