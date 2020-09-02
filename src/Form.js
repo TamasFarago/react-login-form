@@ -57,8 +57,8 @@ function Form(props){
                             <Input id="email" name="email" autoFocus />
                         </FormControl>
                         <FormControl margin="normal" required fullWidth>
-                            <InputLabel htmlFor="password">{password}</InputLabel>
-                            <Input id="password" name="password" autoFocus />
+                            <InputLabel  htmlFor="password">{password}</InputLabel>
+                            <Input type="password" id="password" name="password" autoFocus />
                         </FormControl>
                         <FormControlLabel control={<Checkbox colors="primary"/>} label={remember} />
                         <Button 
